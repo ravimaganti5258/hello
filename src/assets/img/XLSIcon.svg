@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81.366" height="92.99" viewBox="0 0 81.366 92.99">
+  <g id="Group_1257" data-name="Group 1257" transform="translate(-32)">
+    <g id="Group_1257-2" data-name="Group 1257" transform="translate(32)">
+      <path id="Path_990" data-name="Path 990" d="M101.812,0A5.829,5.829,0,0,0,96,5.812V87.178a5.829,5.829,0,0,0,5.812,5.812H159.93a5.829,5.829,0,0,0,5.812-5.812V23.247L142.495,0Z" transform="translate(-84.376)" fill="#e2e5e7"/>
+      <path id="Path_991" data-name="Path 991" d="M357.812,23.247h17.436L352,0V17.436A5.829,5.829,0,0,0,357.812,23.247Z" transform="translate(-293.881)" fill="#b0b7bd"/>
+      <path id="Path_992" data-name="Path 992" d="M401.436,145.436,384,128h17.436Z" transform="translate(-320.07 -104.753)" fill="#cad1d8"/>
+      <path id="Path_993" data-name="Path 993" d="M101.742,271.965a2.914,2.914,0,0,1-2.906,2.906H34.906A2.914,2.914,0,0,1,32,271.965V242.906A2.914,2.914,0,0,1,34.906,240h63.93a2.914,2.914,0,0,1,2.906,2.906Z" transform="translate(-32 -196.411)" fill="#1f7345"/>
+      <path id="Path_994" data-name="Path 994" d="M151.213,418.906H96v2.906h55.213a2.914,2.914,0,0,0,2.906-2.906V416A2.914,2.914,0,0,1,151.213,418.906Z" transform="translate(-84.376 -340.446)" fill="#cad1d8"/>
+    </g>
+    <text id="XLS" transform="translate(41.147 69.415)" fill="#fff" font-size="27" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">XLS</tspan></text>
+  </g>
+</svg>

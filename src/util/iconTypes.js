@@ -1,0 +1,11 @@
+export const ANT_DESIGN = 'AntDesign';
+export const ENTYPO = 'Entypo';
+export const EVIL_ICONS = 'EvilIcons';
+export const FEATHER = 'Feather';
+export const FONT_AWESOME = 'FontAwesome';
+export const FONT_AWESOME_5 = 'FontAwesome5';
+export const FONTISTO = 'Fontisto';
+export const IONICONS = 'Ionicons';
+export const MATERIAL_COMMUNITY_ICONS = 'MaterialCommunityIcons';
+export const MATERIAL_ICONS = 'MaterialIcons';
+export const OCTICONS = 'Octicons';

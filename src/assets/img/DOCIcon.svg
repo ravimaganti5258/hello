@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.948" height="90.227" viewBox="0 0 78.948 90.227">
+  <g id="Group_1271" data-name="Group 1271" transform="translate(-23 -304)">
+    <g id="Group_1255" data-name="Group 1255" transform="translate(23 304)">
+      <g id="Group_1254" data-name="Group 1254">
+        <path id="Path_985" data-name="Path 985" d="M101.639,0A5.656,5.656,0,0,0,96,5.639V84.587a5.656,5.656,0,0,0,5.639,5.639h56.392a5.656,5.656,0,0,0,5.639-5.639V22.557L141.113,0Z" transform="translate(-84.722)" fill="#e2e5e7"/>
+        <path id="Path_986" data-name="Path 986" d="M357.639,22.557h16.917L352,0V16.917A5.656,5.656,0,0,0,357.639,22.557Z" transform="translate(-295.608)" fill="#b0b7bd"/>
+        <path id="Path_987" data-name="Path 987" d="M400.917,144.917,384,128h16.917Z" transform="translate(-321.969 -105.443)" fill="#cad1d8"/>
+        <path id="Path_988" data-name="Path 988" d="M99.67,271.015a2.828,2.828,0,0,1-2.82,2.82H34.82a2.828,2.828,0,0,1-2.82-2.82v-28.2A2.828,2.828,0,0,1,34.82,240H96.85a2.828,2.828,0,0,1,2.82,2.82Z" transform="translate(-32 -197.706)" fill="#295497"/>
+        <path id="Path_989" data-name="Path 989" d="M149.572,418.82H96v2.82h53.572a2.828,2.828,0,0,0,2.82-2.82V416A2.828,2.828,0,0,1,149.572,418.82Z" transform="translate(-84.722 -342.691)" fill="#cad1d8"/>
+      </g>
+      <text id="DOC" transform="translate(7.642 68.393)" fill="#fff" font-size="27" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">DOC</tspan></text>
+    </g>
+  </g>
+</svg>

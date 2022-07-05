@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="77.239" height="88.273" viewBox="0 0 77.239 88.273">
+  <g id="Group_1263" data-name="Group 1263" transform="translate(-32)">
+    <g id="Group_1260" data-name="Group 1260" transform="translate(32)">
+      <path id="Path_995" data-name="Path 995" d="M101.517,0A5.533,5.533,0,0,0,96,5.517V82.756a5.533,5.533,0,0,0,5.517,5.517h55.171a5.533,5.533,0,0,0,5.517-5.517V22.068L140.137,0Z" transform="translate(-84.966)" fill="#e2e5e7"/>
+      <path id="Path_996" data-name="Path 996" d="M357.517,22.068h16.551L352,0V16.551A5.533,5.533,0,0,0,357.517,22.068Z" transform="translate(-296.829)" fill="#b0b7bd"/>
+      <path id="Path_997" data-name="Path 997" d="M400.551,144.551,384,128h16.551Z" transform="translate(-323.312 -105.932)" fill="#cad1d8"/>
+      <path id="Path_998" data-name="Path 998" d="M98.205,270.344a2.767,2.767,0,0,1-2.759,2.759H34.759A2.767,2.767,0,0,1,32,270.344V242.759A2.767,2.767,0,0,1,34.759,240H95.447a2.767,2.767,0,0,1,2.759,2.759Z" transform="translate(-32 -198.622)" fill="#c3301d"/>
+      <path id="Path_999" data-name="Path 999" d="M148.412,418.759H96v2.759h52.412a2.767,2.767,0,0,0,2.759-2.759V416A2.767,2.767,0,0,1,148.412,418.759Z" transform="translate(-84.966 -344.278)" fill="#cad1d8"/>
+    </g>
+    <text id="PPT" transform="translate(39.476 66.67)" fill="#fff" font-size="26" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">PPT</tspan></text>
+  </g>
+</svg>

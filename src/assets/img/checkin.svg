@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="379" height="128" viewBox="0 0 379 128">
+  <defs>
+    <filter id="light" x="4" y="-2" width="364" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" dy="-9" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.351"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="shadow" x="18" y="21" width="352" height="108" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur-2"/>
+      <feFlood flood-color="#03144a" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_2">
+      <rect width="379" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <rect width="379" height="128" fill="none"/>
+    <g id="Group_2649" data-name="Group 2649" transform="translate(-53 -39)">
+      <rect id="Rectangle_919" data-name="Rectangle 919" width="379" height="128" transform="translate(53 39)" fill="#17338d"/>
+      <g transform="matrix(1, 0, 0, 1, 53, 39)" filter="url(#light)">
+        <rect id="light-2" data-name="light" width="328" height="84" rx="42" transform="translate(26 25)" fill="white"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 53, 39)" filter="url(#shadow)">
+        <path id="shadow-2" data-name="shadow" d="M42,0H286a42,42,0,0,1,0,84H42A42,42,0,0,1,42,0Z" transform="translate(26 25)" fill="#17338d"/>
+      </g>
+    </g>
+  </g>
+</svg>

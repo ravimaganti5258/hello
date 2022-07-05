@@ -1,0 +1,7 @@
+{
+  "name": "FP_Product",
+  "displayName": "FP_Product",
+  "android": {
+    "permissions": ["READ_PHONE_STATE"]
+  }
+}

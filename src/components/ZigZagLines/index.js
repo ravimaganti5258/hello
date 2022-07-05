@@ -1,0 +1,84 @@
+import React, {useState} from 'react';
+
+import Svg, {Path} from 'react-native-svg';
+
+const toFixed = (value, precision = 3) => +(+value).toFixed(precision);
+const toString = (props) => {
+  return `${props.width}/${props.height}/${props.jagWidth}/${props.jagBottom}`;
+};
+const chachedResults = {};
+
+const DEFAULT_HEIGHT = 10;
+const DEFAULT_JAG_BOTTOM = 0;
+const DEFAULT_JAG_WIDTH = 15;
+const DEFAULT_BACKGROUND_COLOR = '#CCCCCC';
+const DEFAULT_COLOR = '#FFFFFF';
+const DEFAULT_POSITION = 'top';
+
+export const createZigzagPath = (props) => {
+  const key = toString(props);
+  if (chachedResults[key]) {
+    return chachedResults[key];
+  }
+  const {
+    width,
+    height = DEFAULT_HEIGHT,
+    jagBottom: bottom = DEFAULT_JAG_BOTTOM,
+    jagWidth = DEFAULT_JAG_WIDTH,
+  } = props;
+  const count = Math.floor(width / jagWidth) || 1;
+  const iWidth = width / count;
+  const step = iWidth / 2;
+  let lines = '';
+  for (let i = 0, next = step; i < count; ++i) {
+    lines += `L${toFixed(width - next, 2)} ${bottom}`;
+    next += step;
+    if (count == i + 1) {
+      lines += `L0 ${height}`;
+    } else {
+      lines += `L${toFixed(width - next, 2)} ${height}`;
+      next += step;
+    }
+  }
+  chachedResults[key] = `M0 ${height}V0 H${width} V${height} ${lines}Z`;
+  return chachedResults[key];
+};
+
+const ZigzagLines = (props) => {
+  const {
+    width,
+    height = DEFAULT_HEIGHT,
+    backgroundColor = DEFAULT_BACKGROUND_COLOR,
+    color = DEFAULT_COLOR,
+    position = DEFAULT_POSITION,
+    style,
+    jagWidth,
+    jagBottom,
+    pathProps,
+    svgProps,
+  } = props;
+  const [layout, setLayout] = useState({width, height});
+  return (
+    <Svg
+      {...svgProps}
+      onLayout={(e) => {
+        svgProps && svgProps.onLayout && svgProps.onLayout(e);
+        setLayout({...e.nativeEvent.layout});
+      }}
+      height={height}
+      viewBox={`0 0 ${layout.width} ${layout.height}`}
+      style={[
+        {backgroundColor},
+        position == 'top' ? {transform: [{rotate: '180deg'}]} : null,
+        style,
+      ]}>
+      <Path
+        {...pathProps}
+        d={createZigzagPath({width, height, jagWidth, jagBottom})}
+        fill={color}
+      />
+    </Svg>
+  );
+};
+
+export default ZigzagLines;

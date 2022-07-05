@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.251" height="89.43" viewBox="0 0 78.251 89.43">
+  <g id="Group_1253" data-name="Group 1253" transform="translate(-32)">
+    <g id="Group_1252" data-name="Group 1252" transform="translate(32)">
+      <path id="Path_980" data-name="Path 980" d="M101.589,0A5.606,5.606,0,0,0,96,5.589V83.841a5.606,5.606,0,0,0,5.589,5.589h55.894a5.606,5.606,0,0,0,5.589-5.589V22.358L140.715,0Z" transform="translate(-84.821)" fill="#e2e5e7"/>
+      <path id="Path_981" data-name="Path 981" d="M357.589,22.358h16.768L352,0V16.768A5.606,5.606,0,0,0,357.589,22.358Z" transform="translate(-296.106)" fill="#b0b7bd"/>
+      <path id="Path_982" data-name="Path 982" d="M400.768,144.768,384,128h16.768Z" transform="translate(-322.517 -105.642)" fill="#cad1d8"/>
+      <path id="Path_983" data-name="Path 983" d="M99.073,270.742a2.8,2.8,0,0,1-2.795,2.795H34.795A2.8,2.8,0,0,1,32,270.742V242.795A2.8,2.8,0,0,1,34.795,240H96.278a2.8,2.8,0,0,1,2.795,2.795Z" transform="translate(-32 -198.08)" fill="#f15642"/>
+      <path id="Path_984" data-name="Path 984" d="M149.1,418.795H96v2.795h53.1a2.8,2.8,0,0,0,2.795-2.795V416A2.8,2.8,0,0,1,149.1,418.795Z" transform="translate(-84.821 -343.338)" fill="#cad1d8"/>
+    </g>
+    <text id="PDF" transform="translate(39.939 66.098)" fill="#fff" font-size="25" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">PDF</tspan></text>
+  </g>
+</svg>

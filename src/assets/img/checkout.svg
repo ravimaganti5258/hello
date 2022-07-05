@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="150" fill="currentColor" viewBox="0 0 379 128">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_812" data-name="Rectangle 812" width="328" height="84" rx="42" transform="translate(0 -0.09)" fill="currentColor"/>
+    </clipPath>
+    <clipPath id="clip-Artboard_3">
+      <rect width="379" height="128"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_3" data-name="Artboard – 3" clip-path="url(#clip-Artboard_3)">
+    <rect width="379" height="128" fill="none"/>
+    <g id="Group_2651" data-name="Group 2651" transform="translate(-53 -39)">
+      <rect id="Rectangle_919" data-name="Rectangle 919" width="379" height="128" transform="translate(53 39)" fill="currentColor"/>
+    </g>
+    <g id="Group_2650" data-name="Group 2650" transform="translate(-53 -37.999)">
+      <g id="Group_2648" data-name="Group 2648" transform="translate(79 60.089)">
+        <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(0)" clip-path="url(#clip-path)">
+          <g id="Shadow" transform="translate(-9 0.91)" fill="none" stroke="#000" stroke-width="0.8">
+            <rect width="500" height="128" rx="64" stroke="none"/>
+            <rect x="3.5" y=".5" width="360" height="123" rx="61.5" fill="none"/>
+          </g>
+          <g id="Light" transform="translate(-30 -25.09)" fill="none" stroke="rgb(255,255,200,0.8)" stroke-width="4">
+            <rect width="370" height="113" rx="56.5" stroke="none"/>
+            <rect x="-.5" y="2.5" width="365" height="108" rx="54" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

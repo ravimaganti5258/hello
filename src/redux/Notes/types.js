@@ -1,0 +1,2 @@
+export const NOTES_SUCCESS = 'NOTES_SUCCESS';
+export const NOTES__FAILURE = 'NOTES__FAILURE';

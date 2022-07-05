@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "579468637462",
+    "firebase_url": "https://fp-androidmobile.firebaseio.com",
+    "project_id": "fp-androidmobile",
+    "storage_bucket": "fp-androidmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579468637462:android:49c89a0da8ff595b46cc37",
+        "android_client_info": {
+          "package_name": "com.ducont.fsmgrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579468637462-kqa52m3mhlk0i3657desmt31v2f6eont.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuzk9MTXWdhZUZyLZf4s-NCYh7K5PF5Co"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.891" height="89.499" viewBox="0 0 76.891 89.499">
+  <g id="Group_1295" data-name="Group 1295" transform="translate(-32)">
+    <g id="Group_1268" data-name="Group 1268" transform="translate(32)">
+      <path id="Path_1005" data-name="Path 1005" d="M101.55,0A5.576,5.576,0,0,0,96,5.569V83.542a5.576,5.576,0,0,0,5.55,5.569h55.5a5.576,5.576,0,0,0,5.55-5.569V22.278L140.4,0Z" transform="translate(-85.71)" fill="#e2e5e7"/>
+      <path id="Path_1006" data-name="Path 1006" d="M357.145,20.581h15.436L352,0V15.436A5.16,5.16,0,0,0,357.145,20.581Z" transform="translate(-295.69)" fill="#b0b7bd"/>
+      <path id="Path_1007" data-name="Path 1007" d="M399.436,143.436,384,128h15.436Z" transform="translate(-322.545 -105.33)" fill="#cad1d8"/>
+      <path id="Path_1008" data-name="Path 1008" d="M98.6,348.3a2.687,2.687,0,0,1-2.775,2.573H34.775A2.687,2.687,0,0,1,32,348.3V322.573A2.688,2.688,0,0,1,34.775,320h61.05a2.688,2.688,0,0,1,2.775,2.573Z" transform="translate(-32 -261.76)" fill="#ff5364"/>
+    </g>
+    <text id="VIDEO" transform="translate(42.917 80.499)" fill="#fff" font-size="15" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">VIDEO</tspan></text>
+    <g id="Group_1269" data-name="Group 1269" transform="translate(56.845 15.742)">
+      <path id="Path_1009" data-name="Path 1009" d="M234.41,147.1a1.013,1.013,0,0,1-1.013-1.013V131.9a1.014,1.014,0,0,1,1.558-.855l11.147,7.093a1.015,1.015,0,0,1,0,1.71l-11.147,7.093A1.019,1.019,0,0,1,234.41,147.1Zm1.013-13.355v10.5l8.245-5.247Z" transform="translate(-223.264 -123.792)" fill="#c8bdb8"/>
+      <path id="Path_1010" data-name="Path 1010" d="M185.575,117.168a15.2,15.2,0,1,1,15.2-15.2A15.217,15.217,0,0,1,185.575,117.168Zm0-28.373a13.173,13.173,0,1,0,13.173,13.173A13.189,13.189,0,0,0,185.575,88.795Z" transform="translate(-170.375 -86.768)" fill="#c8bdb8"/>
+    </g>
+  </g>
+</svg>

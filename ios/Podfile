@@ -1,0 +1,61 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+target 'FP_Product' do
+  config = use_native_modules!
+  
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera"
+  pod 'Permission-FaceID', :path => "#{permissions_path}/FaceID"
+  pod 'Permission-Microphone', :path => "#{permissions_path}/Microphone"
+  pod 'Permission-PhotoLibrary', :path => "#{permissions_path}/PhotoLibrary"
+  pod 'Permission-PhotoLibraryAddOnly', :path => "#{permissions_path}/PhotoLibraryAddOnly"
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  # pod 'RNImageCropPicker', :path => '../node_modules/react-native-image-crop-picker'
+
+
+  # pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
+  # pod 'react-native-signature-capture', :path => '../node_modules/react-native-signature-capture'
+
+    pod 'SDWebImage', :modular_headers => true
+    pod 'SDWebImageWebPCoder', :modular_headers => true 
+
+
+
+  target 'FP_ProductTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  pod 'Firebase/Analytics'
+  
+  pre_install do |installer|
+      $RNMBGL.pre_install(installer)
+  end
+  
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable these next few lines.
+
+  # use_flipper!({'Flipper' => '0.74.0'})
+  post_install do |installer|
+   #flipper_post_install(installer)
+    $RNMBGL.post_install(installer)
+  end
+end
+
+target 'FP_Product-tvOS' do
+  # Pods for FP_Product-tvOS
+
+  target 'FP_Product-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
